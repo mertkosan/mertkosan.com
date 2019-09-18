@@ -21,7 +21,10 @@ baseurl: ""
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Projects: "projects"
+  Projects:
+    - Workshops: "projects/workshops"
+    - Ongoing Projects: "projects/ongoing"
+    - Finished Projects: "projects/finished"
   Hobbies:
     - Pokemon Go: "pokemongo"
     - Stories: "stories"
