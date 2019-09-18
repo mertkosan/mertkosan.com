@@ -23,8 +23,8 @@ navbar-links:
   About Me: "aboutme"
   Projects:
     - Workshops: "projects/workshops"
-    - Ongoing Projects: "projects/ongoing"
-    - Finished Projects: "projects/finished"
+    - Ongoing: "projects/ongoing"
+    - Finished: "projects/finished"
   Hobbies:
     - Pokemon Go: "pokemongo"
     - Stories: "stories"
