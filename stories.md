@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Books
+title: Stories
 subtitle: The small stories I am writing...
 ---
 

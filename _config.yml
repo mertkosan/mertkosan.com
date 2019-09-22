@@ -21,8 +21,8 @@ baseurl: ""
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Workshops: "workshops"
   Projects:
-    - Workshops: "projects/workshops"
     - Ongoing: "projects/ongoing"
     - Finished: "projects/finished"
   Hobbies:
