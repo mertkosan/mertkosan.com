@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assigning to Website Coordinator
+title: Assigned to Website Coordinator
 subtitle: Mert becomes a website coordinator in his lab.
 tags: [ucsb, phd, academic, dynamo]
 image: /img/dynamo_logo.png
