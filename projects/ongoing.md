@@ -5,13 +5,9 @@ subtitle: The projects I am currently working on.
 meta-title: Mert Kosan - Ongoing Projects
 ---
 
-## Event Detection on Dynamic Networks
-Period: September 2018 - Present  
-Location: [UC Santa Barbara - Dynamo](https://dynamo.cs.ucsb.edu/)
-Project Type: Research
+Please check my [GitHub](https://www.github.com/mertkosan) and [Resume/CV](https://www.mertkosan.com/docs/Resume_Mert-Kosan.pdf) to learn about the projects I am doing. You can also [contact me](https://www.mertkosan.com/aboutme/) to learn more details.
 
-We proposed an event detection framework for dynamic graphs **Graph Convolutional Networks.** 
-A very simple figure below illustrates, we are creating **time series data** from the dynamic graphs and trying to learn a pattern which can predict/detect an event. 
-We implemented and tested the framework on multiple datasets. It is currently on submission (2020).
+But also for this page, more details will be...
 
-![Event Detection Summary Figure](/img/ed_figure.jpg)
+![](/img/Coming-Soon.png)
+
