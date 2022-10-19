@@ -2,7 +2,7 @@
 layout: page
 title: Finished Projects
 subtitle: The projects I worked on.
-meta-title: Mert Kosan - Finihsed Projects
+meta-title: Mert Kosan - Finished Projects
 ---
 
 ## Event Detection on Dynamic Networks
