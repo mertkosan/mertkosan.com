@@ -26,5 +26,5 @@ A figure below illustrates (a) event detection on dynamic graphs based on a gene
 ![Event Detection Summary Figure](/img/ed_figure_new.png)
 -->
 
-![](../img/DLG-AAAI23%20Poster.png)
-[Poster's PDF version](../docs/DLG-AAAI23%20Poster.pdf)
+![](/img/DLG-AAAI23%20Poster.png)
+[Poster's PDF version](/docs/DLG-AAAI23%20Poster.pdf)
