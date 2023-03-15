@@ -25,8 +25,11 @@ input graphs. Drug discovery is one of the main applications of this work.
 ![](/img/gcfexplainer_case_study.png)
 
 <p align="center" width="100%">
-    <img width="%" src="/img/gcfexplainer_case_study.png">
+    <img width="50%" src="../img/gcfexplainer_case_study.png">
 </p>
+
+Illustration of global and local counterfactual explanations for the AIDS dataset. The global counterfactual graph (c) presents a high-level recourse rule—changing ketones and ethers into 
+aldehydes (shown in blue)—to combat HIV, while the edge removals (shown in red) recommended by local counterfactual examples (b) are hard to generalize.
 
 ## Event Detection on Dynamic Networks
 Period: September 2018 - September 2020  
