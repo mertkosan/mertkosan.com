@@ -25,7 +25,7 @@ input graphs. Drug discovery is one of the main applications of this work.
 ![](/img/gcfexplainer_case_study.png)
 
 <p align="center" width="100%">
-    <img width="%" src="../img/gcfexplainer_case_study.png">
+    <img width="%" src="/img/gcfexplainer_case_study.png">
 </p>
 
 ## Event Detection on Dynamic Networks
