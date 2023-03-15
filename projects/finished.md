@@ -5,6 +5,29 @@ subtitle: The projects I worked on.
 meta-title: Mert Kosan - Finished Projects
 ---
 
+## Global Counterfactual Explainer for Graph Neural Networks
+Period: September 2021 - September 2022  
+Location: [UC Santa Barbara - Dynamo](https://dynamo.cs.ucsb.edu/)
+Project Type: Research
+
+> Global Counterfactual Explainer for Graph Neural Networks.<br>
+> Mert Kosan*, Zexi Huang*, Sourav Medya, Sayan Ranu, Ambuj Singh.<br>
+> ACM International Conference on Web Search and Data Mining, 2023 (WSDM'23).
+
+Published at: [WSDM'23](https://www.wsdm-conference.org/2023/) <br>
+Paper: [https://dl.acm.org/doi/10.1145/3539597.3570376](https://dl.acm.org/doi/10.1145/3539597.3570376) <br>
+Code and Data: [https://github.com/mertkosan/GCFExplainer](https://github.com/mertkosan/GCFExplainer)
+
+One way to address the explainability problem in GNNs is counterfactual reasoning, where the objective is to change the GNN prediction by minimal changes in the input graph. Existing methods for the counterfactual explanation of GNNs are limited to 
+instance-specific local reasoning. In this work, we study a novel problem; the global explainability of GNNs through global counterfactual reasoning. Specifically, we want to find a small set of representative counterfactual graphs that explains all 
+input graphs. Drug discovery is one of the main applications of this work.
+
+![](/img/gcfexplainer_case_study.png)
+
+<p align="center" width="100%">
+    <img width="%" src="../img/gcfexplainer_case_study.png">
+</p>
+
 ## Event Detection on Dynamic Networks
 Period: September 2018 - September 2020  
 Location: [UC Santa Barbara - Dynamo](https://dynamo.cs.ucsb.edu/)
