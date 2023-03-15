@@ -8,7 +8,6 @@ meta-title: Mert Kosan - Finished Projects
 ## Global Counterfactual Explainer for Graph Neural Networks
 Period: September 2021 - September 2022  
 Location: [UC Santa Barbara - Dynamo](https://dynamo.cs.ucsb.edu/)
-Project Type: Research
 
 > Global Counterfactual Explainer for Graph Neural Networks.<br>
 > Mert Kosan*, Zexi Huang*, Sourav Medya, Sayan Ranu, Ambuj Singh.<br>
@@ -27,11 +26,33 @@ input graphs. Drug discovery is one of the main applications of this work.
 -->
 
 <p align="center" width="100%">
-    <img width="50%" src="/img/gcfexplainer_case_study.png">
+    <img width="75%" src="/img/gcfexplainer_case_study.png">
 </p>
 
-Figure: Illustration of global and local counterfactual explanations for the AIDS dataset. The global counterfactual graph (c) presents a high-level recourse rule—changing ketones and ethers into 
-aldehydes (shown in blue)—to combat HIV, while the edge removals (shown in red) recommended by local counterfactual examples (b) are hard to generalize.
+Figure: Illustration of global and local counterfactual explanations for the AIDS dataset. The global counterfactual graph (c) presents a high-level recourse rule—changing ketones and ethers into aldehydes (shown in blue)—to combat HIV, 
+while the edge removals (shown in red) recommended by local counterfactual examples (b) are hard to generalize.
+
+## AI Decision Systems with Feedback Loop Active Learner
+Period: June 2022 - August 2022
+Location [Visa Research - Austin](https://usa.visa.com/)
+
+> AI Decision Systems with Feedback Loop Active Learner.<br>
+> Mert Kosan, Linyun He, Shubham Agrawal, Hongyi Liu, Chiranjeet Chetia.<br>
+> CANDLE: Collaboration of Humans and Learning Algorithms for Data Labeling. WSDM 2023 Crowd Science Workshop.
+
+Published at: [WSDM'23](https://www.wsdm-conference.org/2023/) <br>
+Paper: [https://ceur-ws.org/Vol-3357/paper2.pdf](https://ceur-ws.org/Vol-3357/paper2.pdf) <br>
+Code and Data: [https://github.com/mertkosan/GCFExplainer](https://github.com/mertkosan/GCFExplainer)
+
+The paper addresses the limitation of the collaboration of AI decision systems and human labelers in human-in-the-loop systems. Our framework aims for better ground-truth labeling by learning the interests/expertise 
+of human labelers using active-learning.
+
+Figure: Feedback Loop Active Learner steps. (1) It starts with embedding stream data using pre-trained embedders. (2) User embedding mapper maps the embedding space into a more personalized space. (3) Feature extractor generates learned 
+or expert-designed features to tackle the cold-start problem for recommenders. (4) Generates relevance scores based on AI decision system and extracted features. It sends queries to users for ground truth generation. (5) User generates 
+ground truths and relevancy of the query. They send them back to the framework. Later, FLAL updates its components using an active learning mechanism and keeps ground truth information for future updates on the AI decision system. Notice 
+that the user’s interest (relevancy) in queries can also be inferred using interaction detectors.
+
+![](/img/flal_framework.png)
 
 ## Event Detection on Dynamic Networks
 Period: September 2018 - September 2020  
