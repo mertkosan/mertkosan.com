@@ -22,13 +22,15 @@ One way to address the explainability problem in GNNs is counterfactual reasonin
 instance-specific local reasoning. In this work, we study a novel problem; the global explainability of GNNs through global counterfactual reasoning. Specifically, we want to find a small set of representative counterfactual graphs that explains all 
 input graphs. Drug discovery is one of the main applications of this work.
 
+<!--
 ![](/img/gcfexplainer_case_study.png)
+-->
 
 <p align="center" width="100%">
-    <img width="50%" src="../img/gcfexplainer_case_study.png">
+    <img width="50%" src="/img/gcfexplainer_case_study.png">
 </p>
 
-Illustration of global and local counterfactual explanations for the AIDS dataset. The global counterfactual graph (c) presents a high-level recourse rule—changing ketones and ethers into 
+Figure: Illustration of global and local counterfactual explanations for the AIDS dataset. The global counterfactual graph (c) presents a high-level recourse rule—changing ketones and ethers into 
 aldehydes (shown in blue)—to combat HIV, while the edge removals (shown in red) recommended by local counterfactual examples (b) are hard to generalize.
 
 ## Event Detection on Dynamic Networks
