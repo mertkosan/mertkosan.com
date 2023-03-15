@@ -13,8 +13,7 @@ He had an amazing research field and industry experience.
 
 The project details:
 
-- Developed a framework that generates profiling and recommend optimized strategies for near-real time unsupervised
-fraud detection on graphs.
-- The proposed framework profiles the fraud automatically and
-accurately less than a second with a small number of transactions.
+- The team developed a framework that generates profiling and recommend optimized strategies for near-real time unsupervised fraud detection on graphs.
+- The proposed framework profiles the fraud automatically and accurately less than a second with a small number of transactions.
+- The process of patenting the framework has been started.
 

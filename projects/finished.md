@@ -17,7 +17,7 @@ Published at: [WSDM'23](https://www.wsdm-conference.org/2023/) <br>
 Paper: [https://dl.acm.org/doi/10.1145/3539597.3570376](https://dl.acm.org/doi/10.1145/3539597.3570376) <br>
 Code and Data: [https://github.com/mertkosan/GCFExplainer](https://github.com/mertkosan/GCFExplainer)
 
-One way to address the explainability problem in GNNs is counterfactual reasoning, where the objective is to change the GNN prediction by minimal changes in the input graph. Existing methods for the counterfactual explanation of GNNs are limited to 
+One way to address the explainability problem in graph neural networks (GNNs) is counterfactual reasoning, where the objective is to change the GNN prediction by minimal changes in the input graph. Existing methods for the counterfactual explanation of GNNs are limited to 
 instance-specific local reasoning. In this work, we study a novel problem; the global explainability of GNNs through global counterfactual reasoning. Specifically, we want to find a small set of representative counterfactual graphs that explains all 
 input graphs. Drug discovery is one of the main applications of this work.
 
@@ -47,12 +47,12 @@ Code and Data: [https://github.com/mertkosan/GCFExplainer](https://github.com/me
 The paper addresses the limitation of the collaboration of AI decision systems and human labelers in human-in-the-loop systems. Our framework aims for better ground-truth labeling by learning the interests/expertise 
 of human labelers using active-learning.
 
+![](/img/flal_framework.png)
+
 Figure: Feedback Loop Active Learner steps. (1) It starts with embedding stream data using pre-trained embedders. (2) User embedding mapper maps the embedding space into a more personalized space. (3) Feature extractor generates learned 
 or expert-designed features to tackle the cold-start problem for recommenders. (4) Generates relevance scores based on AI decision system and extracted features. It sends queries to users for ground truth generation. (5) User generates 
 ground truths and relevancy of the query. They send them back to the framework. Later, FLAL updates its components using an active learning mechanism and keeps ground truth information for future updates on the AI decision system. Notice 
 that the user’s interest (relevancy) in queries can also be inferred using interaction detectors.
-
-![](/img/flal_framework.png)
 
 ## Event Detection on Dynamic Networks
 Period: September 2018 - September 2020  

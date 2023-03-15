@@ -7,5 +7,5 @@ image: /img/visa_logo.png
 comments: true
 ---
 
-Mert has started an internship at Visa Research, Austin office (It is remote due to the pandemic). 
-The project he will be working on is related to Fraud Detection and Profiling.
+Mert has started an internship at Visa Research, Austin office (It is remote due to the pandemic). This is his second-time interning at Visa.
+He will be exploring "Peer Group Analysis with Anomaly Detection".
