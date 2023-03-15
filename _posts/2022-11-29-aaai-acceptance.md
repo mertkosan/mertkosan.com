@@ -3,7 +3,7 @@ layout: post
 title: Academic paper accepted to DLG-AAAI 2023!
 subtitle: The paper authored by Mert is accepted to DLG-AAAI 2023 workshop.
 tags: [ai, research, phd, academic, aaai, deep learning]
-image: /img/aaai-logo.png
+image: /img/aaai-logo.jpg
 comments: true
 ---
 
