@@ -2,7 +2,7 @@
 layout: post
 title: Best Paper Award!
 subtitle: Global counterfactual paper is selected as the best-paper.
-tags: [meachine learning, research, phd, academic, wsdm, explainability, best]
+tags: [machine learning, research, phd, academic, wsdm, explainability, best]
 image: /img/wsdm-logo.png
 comments: true
 ---
