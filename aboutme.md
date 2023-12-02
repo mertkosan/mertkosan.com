@@ -23,7 +23,7 @@ meta-title: Mert Kosan - About
 
 👨‍💻 I like doing research on artificial intelligence.
 
-🎮 I mostly like RPG or Simulation Games. My favorites are 👹 [Diablo](https://us.diablo3.com/en/), ⚽ [Football Manager](https://www.footballmanager.com/), and [Pokémon](https://www.pokemon.com/us/).
+🎮 I mostly like RPG or Simulation Games. My favorites are 👹 [Diablo](https://diablo4.blizzard.com/en-us/), ⚽ [Football Manager](https://www.footballmanager.com/), and [Pokémon](https://www.pokemon.com/us/).
 
 ### Contact
 
