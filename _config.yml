@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Mert's Home
+title: Homepage
 
 # Short description of your site
-description: Mert's real and professinal life.
+description: Mert's professional life.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -22,12 +22,12 @@ baseurl: ""
 navbar-links:
   About Me: "aboutme"
   Workshops: "workshops"
-  Projects:
-    - Ongoing: "projects/ongoing"
-    - Finished: "projects/finished"
-  Hobbies:
-    - Pokemon Go: "pokemongo"
-    - Stories: "stories"
+  Projects: "projects"
+  #  - Ongoing: "projects/ongoing"
+  #  - Finished: "projects/finished"
+  # Hobbies:
+  #   - Pokemon Go: "pokemongo"
+  #   - Stories: "stories"
   Publications:
     - Event Detection (DLG'23): "/docs/kosan2023dyged.pdf"
     - Global Counterfactual (WSDM'23): "/docs/kosan2023gcfexplainer.pdf"
@@ -77,15 +77,15 @@ author:
 social-network-links:
   # rss: false
   email: "mertkosan@gmail.com"
-  facebook: mertkooo
+#  facebook: mertkooo
   github: mertkosan
-  twitter: mert_koo
+#  twitter: mert_koo
 #  reddit: yourname
   linkedin: mertkosan
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: mertkoosan
+#  instagram: mertkoosan
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
@@ -95,8 +95,8 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -195,6 +195,7 @@ link-tags: true
 
 # Exclude these files from production site
 exclude:
+  - .bundle
   - CHANGELOG.md
   - CNAME
   - Dockerfile
@@ -203,6 +204,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - vendor
 
 # prose.io config
 prose:

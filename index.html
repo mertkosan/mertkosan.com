@@ -1,73 +1,94 @@
 ---
 layout: page
-title: Hello! I'm Mert.
-subtitle: This is where you will find news about me or my interests.
-meta-title: "Mert Kosan - Home"
-meta-description: "Mert Kosan"
+title: Mert Kosan
+subtitle: Staff Machine Learning Scientist, Visa Inc.<br><br>Ph.D., Computer Science, UC Santa Barbara
+meta-title: "Mert Kosan | Machine Learning Scientist"
+meta-description: "Mert Kosan is a Staff Machine Learning Scientist at Visa working on representation learning, explainability, and large-scale production systems."
 ---
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | relative_url }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+<p class="text-center">
+  Austin, TX
+  <span aria-hidden="true">&middot;</span>
+  <a href="mailto:mertkosan@gmail.com">mertkosan@gmail.com</a>
+  <span aria-hidden="true">&middot;</span>
+  <a href="https://www.linkedin.com/in/mertkosan/">LinkedIn</a>
+</p>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
+<hr>
 
-    <p class="post-meta">
-      Posted on {{ post.date | date: site.date_format }}
-    </p>
+<p>
+  I am a machine learning scientist working at the intersection of representation learning,
+  explainability, and large-scale production systems. My work is guided by a central question:
+  how can we build AI systems that are not only powerful, but genuinely trustworthy &mdash;
+  systems whose decisions can be understood, scrutinized, and relied upon in consequential,
+  real-world settings.
+</p>
 
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-    </div>
+<section>
+  <h2>Professional Focus</h2>
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
+  <p>
+    As a Staff Machine Learning Scientist at Visa, I apply these interests to fraud detection,
+    risk modeling, and payment intelligence at global scale. My work includes the design of
+    large-scale self-supervised transformers and Large Transactional Models for multi-task fraud
+    and risk applications, as well as a GenAI-powered explainability system that generates
+    human-readable rationale for high-risk transaction decisions &mdash; supporting the kind of
+    transparent, human-in-the-loop decision-making that I believe should underpin any
+    consequential AI system. I have also designed the feature and signal architecture for an
+    account-level insights system operating across billions of accounts, and I regularly mentor
+    junior scientists and engineers on both technical direction and research methodology.
+  </p>
 
-   </article>
-  {% endfor %}
-</div>
+  <p>
+    I place equal value on methodological rigor and real-world deployment. A well-designed method
+    that never reaches production, and a deployed system that cannot be understood or trusted by
+    the people relying on it, represent, to me, two versions of the same failure. Much of my work
+    is concerned with closing that gap.
+  </p>
+</section>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+<section>
+  <h2>Research Interests</h2>
+
+  <p>
+    My research centers on transparent representation learning, with a particular focus on
+    graph-structured data and human-AI collaboration. During my Ph.D. at UC Santa Barbara,
+    advised by Prof. Ambuj K. Singh, I worked on formulating explainability not as an auxiliary
+    feature of machine learning systems, but as a core design constraint. This work produced
+    GCFExplainer, a method for generating global counterfactual explanations for graph
+    classification, and GNNX-Bench, a comprehensive benchmarking study of graph neural network
+    explainers &mdash; recognized among the Top 10 papers at WSDM 2023 and awarded Best Paper
+    at MLoG-WSDM 2023.
+  </p>
+
+  <p>
+    I am drawn to problems that are not yet well-formalized &mdash; questions at the boundary of
+    existing methodology, where the first task is determining how to think about the problem
+    before attempting to solve it. I find this kind of open-ended inquiry, followed by rigorous
+    formalization, to be the most intellectually rewarding part of research.
+  </p>
+</section>
+
+<section>
+  <h2>Background</h2>
+
+  <p>
+    I hold a Ph.D. and M.S. in Computer Science from the University of California, Santa Barbara,
+    and a B.S. in Computer Science from Sabanc&#305; University, where I graduated first in my
+    program. My research has been published at venues including KDD, ICLR, AAAI, and WSDM, and I
+    hold three patents in machine learning applied to fraud detection and anomaly analysis. I
+    currently serve as an Area Chair for KDD's Dataset and Benchmark Track and have reviewed for
+    venues including NeurIPS, ICLR, and The Web Conference.
+  </p>
+</section>
+
+<hr>
+
+<p>
+  <em>
+    A complete record of publications, patents, and professional experience is available on my
+    <a href="{{ '/docs/resumeMertKosan.pdf' | relative_url }}">CV</a>. Also see my
+    <a href="https://scholar.google.com/citations?user=12lDpTAAAAAJ&hl=en">Google Scholar</a>
+    and <a href="https://patents.google.com/?inventor=Mert+KOSAN">Patents</a>.
+  </em>
+</p>
